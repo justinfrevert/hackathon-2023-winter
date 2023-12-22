@@ -15,7 +15,7 @@ Project establishment date 11/2023
   ![Substrate solution architecture](./docs/architecture.png)
 - Project Layout
   - `substrate-winter-2023-hackathon`: this is the substrate blockchain node which contains the validation logic for the test proofs
-  - `example-ci-project`: this is a sample Rust project which utilizes the test proofs in CI, and sends the proofs onchain
+  - `example-ci-project`: this is a sample Rust project which utilizes the test proofs in CI, and sends the proofs onchain. This can only work if you specify a live, running substrate network ws:// url.
 
 ## Things planned to be accomplished during the hackathon
 
@@ -35,7 +35,6 @@ Project establishment date 11/2023
 
 - `Example project`
    - [x] Demonstrate integration of the tool and blockchain in an example Rust project
-
 
 ## Things accomplished during the hackathon (submitted before preliminary review at 11:59 am on December 22, 2023)
    - [x] Adapt existing code for verifying ZK proofs
